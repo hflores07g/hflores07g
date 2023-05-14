@@ -58,20 +58,18 @@ body {
   /* border-style: 20px,solid,red; */
 } 
 
-.bordes1 img {
+img {
   /*
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center; */
   border: 0px solid blue;
   border-radius: 20%;
   background-color: yellow;
   height: 250px;
   width: 250px;
-  position: relative;
-  z-index: 1;
-  */
 } 
+
  h1 {
   color:white;
  }
