@@ -1,25 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
+    background-color: #FFB84C;
   }
 
-  h1 {
+  #name1 {
     font-size: 24px;
     margin-bottom: 10px;
-    color:green;
+    color: blue;
+    /*background-color: yellow; */
+    width: 150px;
+    height: 120px;
+    
   }
 
   h2 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #F266AB;
+  }
+
+  h3 {
+    color:#F266AB;
   }
 
   p {
     margin: 0;
     margin-bottom: 10px;
+    color:#A459D1;
+    
   }
 
   .section {
     margin-bottom: 20px;
   }
+
+  .foto {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* background-color: aqua; */
+    
+  }
+
+  .name {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    /* background-color:sandybrown; */
+    height: 250px;        
+  }
+
+#fotoHenry {
+  /* border-style: 20px,solid,red; */
+} 
+
+.bordes1 img {
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  border: 0px solid blue;
+  border-radius: 20%;
+  background-color: yellow;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  z-index: -1;
+} 
+ h1 {
+  color:white;
+ }
