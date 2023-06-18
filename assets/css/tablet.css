@@ -1,0 +1,104 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --fondo-primary:#FFB84C;
+    --titulos-secondary: #F266AB;
+    --texto-terciary:#A459D1;
+    --links-cuaternary:#2CD3E1;
+  }
+
+  .wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50px 93px repeat(7,1fr);
+    grid-template-rows: 50px 93px repeat(8,1fr);
+    grid-template-areas: 
+    "lado lado lado lado lado lado lado lado lado"
+    "navega navega navega navega navega navega navega navega navega"
+    "side side1 contenidou contenidou contenidou contenidou contenidou contenidou contenidou"
+    "side side1 contenidos contenidos contenidos contenidos contenidos contenidos contenidos"
+    "side side1 contenidoe contenidoe contenidoe contenidoe contenidoe contenidoe contenidoe"
+    "side side1 contenidoo contenidoo contenidoo contenidoo contenidoo contenidoo contenidoo"
+    "side side1 contenido contenido contenido contenido contenido contenido contenido"
+    "side side1 contenidot contenidot contenidot contenidot contenidot contenidot contenidot"
+    "side side1 contenidoh contenidoh contenidoh contenidoh contenidoh contenidoh contenidoh"
+    "footer footer footer footer footer footer footer footer footer";
+}
+
+.name { 
+    grid-area: lado;
+    /* background-color: red; */
+    height: 50px;
+    width: 100%;
+ }
+
+ img {
+    
+    width: 80px;
+    height: 80px;
+    
+}
+
+
+.name #name1 {
+    color:white;
+    /*background-color: red; */
+}
+
+.secction-foto {
+    grid-area: navega;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.container-foto {
+    
+    /* background-color: brown; */
+    display: inline-block;
+    
+}
+
+.secction-foto h1 {
+    display: inline-block;
+    
+}
+
+header {
+    grid-area:side1;
+}
+
+.perfil1 {
+    grid-area: contenidou;
+}
+
+.perfil2 {
+    grid-area: contenidos;
+}
+
+.perfil3 {
+    grid-area: contenidoe;
+}
+
+.perfil4 {
+    grid-area: contenidoo;
+}
+
+.perfil5 {
+    grid-area: contenido;
+}
+
+.perfil6{
+    grid-area: contenidot;
+}
+
+.perfil7{
+    grid-area: contenidoh;
+}
+.footer {
+    grid-area: footer;
+    height: 30px;
+}

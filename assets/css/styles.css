@@ -1,25 +1,132 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-  h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color:green;
-  }
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --fondo-primary:#FFB84C;
+  --titulos-secondary: #F266AB;
+  --texto-terciary:#A459D1;
+  --links-cuaternary:#2CD3E1;
+}
 
-  h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
+* {
+  box-sizing: border-box;
+  padding:0 ;
+  margin: 0;
+}
 
-  p {
-    margin: 0;
-    margin-bottom: 10px;
-  }
+html{
+  font-size: 62.5%;
+}
 
-  .section {
-    margin-bottom: 20px;
-  }
+body{
+  background-color: var(--fondo-primary);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+.name {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  /* background-color:sandybrown; */
+  /* border: 1px solid red; */
+        
+}
+
+.name #name1 {
+  color: var(--color-black); 
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  margin-top: 10px;
+  border-radius: 95%;
+  /* border: 1px solid red; */
+  /* box-sizing: border-box; */
+  overflow:auto;
+
+}
+
+.secction-foto h1 {
+  color: var(--texto-terciary);
+  text-align: center;
+  margin: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 5px;
+
+}
+
+.main-nav__item {
+  margin: 5px;
+}
+.main-nav__item a {
+  
+  color:var(--color-white);
+  text-decoration: none;
+  border-radius: 5px;
+  background-color:var(--links-cuaternary);
+}
+
+.perfil1 p {
+  text-align: justify;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color:var(--titulos-secondary);
+}
+
+h3 {
+  color:var(--titulos-secondary);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+  color:var(--texto-terciary);
+  text-align: justify;
+  
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2::before {
+content: "✔ ";
+}
+
+ul li {
+  color:var(--texto-terciary);
+}  
+
+
+h1 {
+color:white;
+margin-top: 20px;
+text-align: center;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+background-color:var(--links-cuaternary);
+border-radius: 5%;
+}
+
