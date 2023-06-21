@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --fondo-primary:#FFB84C;
+  --titulos-secondary: #F266AB;
+  --texto-terciary:#A459D1;
+  --links-cuaternary:#2CD3E1;
+}
+
+* {
+  box-sizing: border-box;
+  padding:0 ;
+  margin: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.wrapper {
+    /* width: 100%; */
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: 100px 93px repeat(7,1fr);
+    grid-template-rows: 100px 93px repeat(8,1fr);
+    grid-template-areas: 
+    "lado1 lado1 lado1 lado1 lado1 lado1 lado1 lado1 lado"
+    "navega navega navega navega navega navega navega navega navega"
+    "side side1 contenidou contenidou contenidou contenidou contenidou contenidou contenidou"
+    "side side1 contenidos contenidos contenidos contenidos contenidos contenidos contenidos"
+    "side side1 contenidoe contenidoe contenidoe contenidoe contenidoe contenidoe contenidoe"
+    "side side1 contenidoo contenidoo contenidoo contenidoo contenidoo contenidoo contenidoo"
+    "side side1 contenido contenido contenido contenido contenido contenido contenido"
+    "side side1 contenidot contenidot contenidot contenidot contenidot contenidot contenidot"
+    "side side1 contenidoh contenidoh contenidoh contenidoh contenidoh contenidoh contenidoh"
+    "footer footer footer footer footer footer footer footer footer";
+}
+
+.name { 
+    grid-area: lado;
+    /* background-color: red; */
+    /* width:100px; */
+    height:100%;
+    /* place-self:center; */
+    
+    
+ }
+
+ #name1 {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    height: 100%;
+    /* background-color:blue; */
+    
+    
+ }
+
+ img {
+    width: 180px;
+    height: 180px;
+ }
+
+ .secction-foto h1 {
+    font-size: 2rem;
+  }
+
+header {
+    grid-area: lado1;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction:row;
+}
+.main-nav>li {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.perfil2 li {
+    font-size: 1.5rem;
+}
+
+.perfil3 li {
+    font-size: 1.5rem;
+}
+
+.perfil4 li {
+    font-size: 1.5rem;
+}
+
+.perfil5 li {
+    font-size: 1.5rem;
+}
+
+.perfil6 li {
+    font-size: 1.5rem;
+}
+
+.perfil7 li {
+    font-size: 1.5rem;
+}
+
+.footer {
+    grid-area: footer;
+    height: 50px;
+}
+
+section > span {
+    color:var(--color-white);
+    font-size: large;
+}
