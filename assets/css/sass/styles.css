@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --fondo-primary:#FFB84C;
+  --titulos-secondary: #F266AB;
+  --texto-terciary:#A459D1;
+  --links-cuaternary:#2CD3E1;
+
+}
+
+.experiencia> p {
+    
+    color: var(--texto-terciary);
+    font-size: 1.8rem;
+        
+}
+
+.navbar {
+    color: var(--texto-terciary);
+    font-size: 2.8rem;
+
+}
+
+
+h1{
+    margin: 10px;
+    text-align: center;
+    color:var(--color-white);
+    
+}
+
+h2{
+    color: var(--titulos-secondary);
+    font-weight:bold;
+    margin-bottom: 10px;
+    
+}
+
+h2::before {
+    content: "✔ ";
+    }
+
+h3 {
+    font-weight:bold;
+    color:var(--titulos-secondary);
+}
+
+p{
+    margin: 0;
+    margin-bottom: 10px;
+    color:var(--texto-terciary);
+    text-align: justify;
+}
+
+article {
+    
+    ul li {
+        color:var(--texto-terciary);
+        text-align: justify;
+      }  
+}
+
+.formacion {
+    color:var(--texto-terciary);
+    text-align: justify;
+}
+
+.otros-Datos {
+    color:var(--texto-terciary);
+    text-align: justify;
+}
+
+.datos-Contacto {
+    color:var(--texto-terciary);
+    text-align: justify;
+}

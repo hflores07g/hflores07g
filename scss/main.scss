@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  $color-white: #fff;
+  $color-black: #000;
+  $fondo-primary:#FFB84C;
+  $titulos-secondary: #F266AB;
+  $texto-terciary:#A459D1;
+  $links-cuaternary:#2CD3E1;
+  $font-stack: 'Roboto', sans-serif;
+
+  html{
+    font-size: 62.5%;
+  }
+
+  body{
+    background-color: $fondo-primary;
+    font-family: $font-stack;
+    margin: 0;
+    padding: 20px;
+    
+  }
+
+section {
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center; // Centra horizontalmente el contenido dentro de la columna
+      
+    }
+
+    font-size: 1.8rem;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+  
+  .row {
+    display: flex;
+    align-items: center; // Centra verticalmente los elementos en cada columna
+    justify-content: center;
+    padding: 15px;
+    // background-color: greenyellow;
+  }
+  
+  .col {
+    flex: 1;
+    text-align: center; // Centra el texto horizontalmente en cada columna
+    // background-color: lightcoral;
+  }
+
+  .col-sm-5 {
+    flex: 1;
+    text-align: center; // Centra el texto horizontalmente en cada columna
+    // background-color: lightcoral;
+    
+  }
+  
+  .foto__img {
+    border-radius: 50%;
+    overflow:auto;
+  }
+
+  figcaption {
+    font-size: 1.6rem;
+    color: $color-white;
+    margin-top: 10px;
+  }
+
+  
