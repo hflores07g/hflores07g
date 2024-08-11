@@ -10,6 +10,10 @@
 
 }
 
+.perfil-Profesional> p {
+    text-align: justify;
+}
+
 .experiencia> p {
     
     color: var(--texto-terciary);
@@ -58,7 +62,7 @@ article {
     
     ul li {
         color:var(--texto-terciary);
-        text-align: justify;
+        
       }  
 }
 
